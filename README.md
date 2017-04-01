@@ -6,6 +6,25 @@ Pray Times provides a set of handy functions to calculate prayer times for any l
 The code is originally written in JavaScript. This manual provides information on how to use the code on a web-page or a [JavaScript-based](http://praytimes.org/manual/) application to display prayer times.
 
 
+<b>CalculationMethod:</b><br/>
+   Muslim World League<br/>
+   Islamic Society of North America (ISNA)<br/>	
+   Egyptian General Authority of Survey<br/>
+   Umm al-Qura University, Makkah<br/>
+   120 min during Ramadan<br/>
+   University of Islamic Sciences, Karachi<br/>
+   Institute of Geophysics, University of Tehran<br/>	
+   Shia Ithna Ashari, Leva Research Institute, Qum<br/>
+
+<b>Latitude of your city<br/>
+Longitude of your city<br/>
+Rise Angle :</b> for sunrise and sunset offset default value is 0.833 + sun angle<br/> 
+<b>Time Zone : </b>if NaN, calculate by date<br/>
+<b>HighLats :</b><br/>
+   Middle of night<br/>
+   Angle/60th of night<br/>
+   1/7th of night<br/>
+   No adjustment<br/>
 
 ```ActionScript
 var date:Date = new Date();
