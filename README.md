@@ -8,6 +8,7 @@ The code is originally written in JavaScript. This manual provides information o
 
 
 ```ActionScript
+var date:Date = new Date();
 var pt:PrayTimes = new PrayTimes(CalculationMethod.TEHRAN, 35.6961, 51.4231, 0);
 var dts:Vector.<Date> = pt.getTimes(date).toDates();
 trace(pt.getTimes(date).toTimeFormatString());
